@@ -6,7 +6,7 @@ environment settings with me where ever I go!
 ## Installation
 
 ```
-git clone https://github.com/picoDoc/dotfiles.git ~./dotfiles
+git clone https://github.com/picoDoc/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 sh bootstrap.sh
 ```
