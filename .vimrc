@@ -16,6 +16,9 @@ set ignorecase
 " show line numbers
 set number
 
+" show mode at the bottom
+set showmode
+
 " don't allow the cursor to go to the screen edge
 set so=7
 
