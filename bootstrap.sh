@@ -17,5 +17,5 @@ done
 # create the symlinks...
 for file in $DOTFILES; do
     echo "creating symlink for $file"
-    ln -sf $(pwd)/$file ~/$file
+    ln -sfT $(pwd)/$file ~/$file
 done
