@@ -13,9 +13,6 @@ set hlsearch
 " ignore case in search
 set ignorecase
 
-" show line numbers
-set number
-
 " show mode at the bottom
 set showmode
 
