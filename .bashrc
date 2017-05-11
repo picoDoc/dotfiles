@@ -121,3 +121,8 @@ fi
 
 # set the editor to use by default to vim
 export EDITOR=vim
+
+# source custom bash stuff
+if [ -f ~/.bashrc_custom ]; then
+  . ~/.bashrc_custom
+fi
