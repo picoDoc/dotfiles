@@ -121,3 +121,7 @@ fi
 
 # set the editor to use by default to vim
 export EDITOR=vim
+
+# export COLUMNS and ROWS for q (and probably other stuff...)
+export COLUMNS=$(tput cols)
+export LINES=$(tput lines)
