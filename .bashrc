@@ -125,3 +125,8 @@ export EDITOR=vim
 # export COLUMNS and ROWS for q (and probably other stuff...)
 export COLUMNS=$(tput cols)
 export LINES=$(tput lines)
+
+# source custom bash stuff
+if [ -f ~/.bashrc_custom ]; then
+  . ~/.bashrc_custom
+fi
